@@ -1,0 +1,89 @@
+/* first, let's follow best practices and cancel out default margins with the universal selector */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/* now we can control our margins ourselves, so lets give the body a 50px margin on the left and right; and a 25px margin on the top and bottom.
+
+can you write it in shorthand?*/
+
+body {
+   margin: 25px 50px;
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Style the h1:
+   10px margin on the bottom
+   10px padding on the top and bottom
+   15px padding on the right and left
+   and a solid black border that is 1px thick
+   center the text and make it uppercase in CSS (do not retype it as uppercase in your HTML)
+   add a background color with 50% opacity
+*/
+h1 {
+   margin-bottom: 10px;
+   padding: 10px 15px;
+   border: 1px solid black;
+   text-align: center;
+   text-transform: uppercase;
+   background-color:#FF000080;
+}
+
+h2 {
+   color: #000000;
+   background-color: #ffff00;
+   margin-top: 2.5%;
+   margin-bottom: 2.55%;
+   padding: 5px 10px 15px 20px;
+   border: 8px dotted
+}
+
+p {
+   color: #ffffff;
+   background-color: #00f;
+   border: 2px solid #000000;
+   padding: 10px;
+}
+
+code {
+   background-color:#ffffff;
+   color:#008000;
+   border: 1px solid #000000;
+   padding: 10px;
+
+}
+
+li {
+   color:#ffffff;
+   background-color:#008000;
+   padding: 10px;
+   border: 1px solid #c30010;
+   list-style-type: none;
+
+
+}
+
+a {
+   background-color: yellow;
+   font-size: 36px;
+   color:#000000;
+   border: 5px solid #000000;
+   text-decoration: none;
+   display: block;
+}
+
+.blockTo {
+  display: inline;
+}
+
+
+
