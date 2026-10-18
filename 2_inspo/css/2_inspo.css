@@ -1,25 +1,23 @@
-/* the * indicates universal styles, we will get into that later in the semester
-for now, you can leave these alone */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-/* Css is how we add all things style, below there are two simple styles added
-go ahead and play with these, can you get the colors to change? What do you notice?
- */
-
 body {
+	background-color: #F2F0D8;
+	color: #000;
 
-    color: #26241C;
-    background-color: #F2F0D8;
 }
 
 nav {
-    background-color: #000;
-    padding: 10px;
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	justify-content: center;
+  	background-color: #000;
+  	padding: 10px;
 }
 
 nav a {
@@ -33,3 +31,65 @@ nav a {
 nav a:hover {
     color: #008000;
 }
+
+header {
+	background-color: #F2F0D8;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: .5%;
+	margin-bottom: .5%;
+}
+
+
+
+h1 {
+	color: #000;
+	font-size: 48px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+}
+
+
+code {
+	background-color: rgba(255,255,255,.75);
+	color: #0d0d0d;
+	padding: 3px;
+}
+
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+article {
+width: 30%;
+padding-bottom: 1.5%;
+}
+
+p {
+	text-align: justify;
+	text-justify:inter-word;
+}
+
+.articleImg {
+width: 100%;
+}
+
+h2, h3 {
+	padding-top: 3%;
+	text-align: center;
+}
+
+
+
+
