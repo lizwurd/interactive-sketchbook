@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>positioning elements</title>
+    <link rel="stylesheet" href="https://use.typekit.net/azk2aca.css">
+    <link rel="stylesheet" href="css/positioningLab.css">
+</head>
+<body>
+
+  <header>
+  	<h1>positioning elements</h1>
+  </header>
+
+  <nav>
+      
+      <a href="../index.html">home</a>
+
+      <a href="../1_hierarchy/1_hierarchy.html">hierarchy</a>
+
+      <a href="../2_inspo/2_inspo.html">inspo</a>
+
+      <a href="../3_about/3_about.html">about</a>
+
+      <a href="../4_checkpoint_one/4_checkpoint_one.html">interactive sketchbook</a>
+
+      <a href="../5_css_practice/5_css_practice.html">css practice</a>
+
+      <a href="../6_box_model/6_box_model.html">box model</a>
+
+      <a href="../mid_century_modern_blog/mid_century_modern_blog.html">mid century modern blog</a>
+
+      <a href="../multi_column_lab/multi_column_lab.html">multi column lab</a>
+
+      <a href="../flexboxIRL/flexboxIRL.html">flexboxIRL</a>
+
+
+    </nav>
+    
+  <section>
+    <h3>Static</h3><p>default, as-is behavior</p>
+    <h3>Relative</h3><p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
+    <h3>Absolute</h3><p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
+      </p>
+    <h3>Fixed</h3><p>positioned in relation to the browser window, it just stays put!</p>
+    <h3>***Sticky***</h3><p>this one is a little more advanced, and we won’t get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p><br>
+    <h3>Next up: z-index</h3><p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.<br>
+    0=bottom 100=top<br>
+    think of z-index like the “bring to front” or “send to back” in design software.</p>
+    <br>
+    <h3>Reflection:</h3><p>I would say all of the positioning made a good amount of sense to me, honestly. Especially after viewing it in the demo. I do see myself having trouble in the future with coding because technically, example, as mentioned in the file “adding in align-items - justify-content won't work the same on a column, only a row.” I know that’s flexbox related, but I do feel that might get in the way of when I try to position things, if I get that wrong. I also feel like I have a hard time remembering the relationship between a parent and a child and how nested items need to be coded a certain way. I fear I’ll mix that up too. But I would say visually, the fixed and z-index positioning made the most sense to me. Or it at least pulled everything together and made everything look together and cohesive. I think relative would be nice for center content, fixed for footers.. Maybe even navigation. (is that crazy??? Maybe even annoying) If not fixed for navigating, definitely z-index. Z-index is a top favorite of mine. It’s easy to use, there’s a level of transparency, and it helps bring important content to the front. It would take me some time to see where I can use this in my sketchbook, but I can definitely use this. </p>
+    <br>
+    <p>for more information <a href="https://docs.google.com/presentation/d/1l5xqA2J6o3fNxPjc018LBTOWBgWTk6ssM02cNlLk4TU/edit?usp=sharing" target="_blank">click here</a></p>
+  </section>
+
+	<div class="overlay-wrapper">
+	  <img src="img/knollflower.gif" alt="knoll flower" />
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+	</div>
+
+  <footer>
+    <a href="#">footer nav</a>
+    <h3>fix the footer to the bottom</h3>
+ 
+  </footer>
+  
+</body>
+</html>
