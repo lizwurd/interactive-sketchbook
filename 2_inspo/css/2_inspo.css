@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #F2F0D8;
+	background-color: #97978f;
 	color: #000;
 
 }
@@ -33,7 +33,6 @@ nav a:hover {
 }
 
 header {
-	background-color: #F2F0D8;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
