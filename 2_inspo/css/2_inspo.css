@@ -5,6 +5,22 @@
 	box-sizing: border-box;
 }
 
+.circle {
+    background-color: #F6F1D5;
+    position: relative;
+    top: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    left: 1%;
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    padding-top: 5%;
+    box-shadow: -10px -5px 50px 15px rgba(246, 241, 213, .5);
+    cursor: crosshair;
+    transition-duration: 2s;
+}
+
 body {
 	background-color: #97978f;
 	color: #000;
@@ -89,6 +105,15 @@ h2, h3 {
 	text-align: center;
 }
 
+.circle:hover {
+  box-shadow: 10px 5px 50px 15px rgba(246, 241, 213, .5);
+}
 
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+}
 
 

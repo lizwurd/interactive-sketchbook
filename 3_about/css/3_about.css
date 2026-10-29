@@ -7,6 +7,22 @@ for now, you can leave these alone */
     box-sizing: border-box;
 }
 
+.circle {
+    background-color: #F6F1D5;
+    position: relative;
+    top: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    left: 1%;
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    padding-top: 5%;
+    box-shadow: -10px -5px 50px 15px rgba(246, 241, 213, .5);
+    cursor: crosshair;
+    transition-duration: 2s;
+}
+
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
@@ -72,4 +88,15 @@ p {
 
 .link a {
     color: inherit;
+}
+
+.circle:hover {
+  box-shadow: 10px 5px 50px 15px rgba(246, 241, 213, .5);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
 }
