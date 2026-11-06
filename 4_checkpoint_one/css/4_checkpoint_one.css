@@ -35,6 +35,15 @@ body {
     margin-right: 5%;
 }
 
+.viewportImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 h2 {
   display: flex;
   justify-content: center;
