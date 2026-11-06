@@ -192,7 +192,11 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    font-size: 100%;
+    
+}
+
+nav a {
+  font-weight: bold;
 }
 
 .container img {
