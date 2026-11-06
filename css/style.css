@@ -185,7 +185,7 @@ footer {
 
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 25em) {
 
     nav {
     display: flex;
