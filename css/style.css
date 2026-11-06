@@ -26,12 +26,15 @@ for now, you can leave these alone */
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
-
-body {
-
+ html {
     color: #26241C;
     background-color: #97978f;
     font-family: Arial, Helvetica, sans-serif;
+ }
+
+body {
+    width: 100%;
+    min-height: 100vh;
 }
 
 h1 {
@@ -142,4 +145,39 @@ footer {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: baseline;
+}
+
+/* -------- media queries --------- */
+
+@media screen and (max-width: 37.5em) {
+
+    nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.container img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 3%;
+}
+
+.container {
+  display: flex;       
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.reflection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 }
