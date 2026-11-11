@@ -219,6 +219,11 @@ nav a {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
+  font-size: 2em;
+}
+
+.text {
+  font-size: 2em;
 }
 
  body {
