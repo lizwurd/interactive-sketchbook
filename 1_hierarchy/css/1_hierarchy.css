@@ -17,6 +17,30 @@ body {
     background-color:#97978f;
 }
 
+ .top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+ }
+
+ .top-left-img {
+  width: 6em;
+  height: auto;
+  margin: 0;
+  transition: transform 0.3s ease;
+ }
+
+ .top-left-img:hover {
+  transform: scale(1.1);
+ }
+
+ .top-header h1 {
+    flex: 1;
+    padding-right: 3em;
+ }
+
 nav {
   display: flex;
   flex-direction: row;

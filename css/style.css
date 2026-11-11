@@ -32,6 +32,25 @@ go ahead and play with these, can you get the colors to change? What do you noti
     font-family: Arial, Helvetica, sans-serif;
  }
 
+ .top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+ }
+
+ .top-left-img {
+  width: 6em;
+  height: auto;
+  margin: 0;
+  transition: transform 0.3s ease;
+ }
+
+ .top-left-img:hover {
+  transform: scale(1.1);
+ }
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -43,6 +62,7 @@ h1 {
   flex-wrap: nowrap;
   justify-content: center;
   margin-top: 1.5%;
+  font-size: 3em;
 }
 
 nav {
