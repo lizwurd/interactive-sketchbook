@@ -249,4 +249,12 @@ nav a {
   font-size: 1em;
 }
 
+.top-left-img {
+  width: 3em;
+}
+
+.top-header h1 {
+  padding-right: 3em;
+}
+
 }
