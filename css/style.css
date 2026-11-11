@@ -221,20 +221,12 @@ nav a {
   justify-content: center;
 }
 
-.reflection a {
+.reflection p {
   font-size: 2em;
 }
 
-.text a {
+.text p {
   font-size: 2em;
 }
-
- body {
-  font-size: 2em;
-  }
-
-  p {
-  font-size: 2em;
-  }
 
 }
