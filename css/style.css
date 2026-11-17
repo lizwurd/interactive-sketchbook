@@ -246,7 +246,7 @@ nav a {
 }
 
 .text p {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .top-left-img {
@@ -263,6 +263,10 @@ img {
 
 .container .text {
   margin-right: 1%;
+}
+
+.top-left-img {
+
 }
 
 }
