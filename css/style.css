@@ -168,7 +168,7 @@ footer {
 }
 
 
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 600px) {
 
     nav {
     display: flex;
@@ -258,7 +258,9 @@ nav a {
 }
 
 img {
-  margin-right: 1%;
+  margin-right: 5%;
+  width: 100%;
+
 }
 
 .container .text {
